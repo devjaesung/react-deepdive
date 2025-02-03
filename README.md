@@ -33,15 +33,15 @@
    ```bash
    git clone https://github.com/devjaesung/react-deepdive.git
    ```
-2. **브랜치 생성**: `main` 브랜치에서 `[아이디]` 브랜치를 생성합니다.
+2. **브랜치 생성**: `main` 브랜치에서 `[이름]` 브랜치를 생성합니다.
    ```bash
-   git checkout -b haryan248
+   git checkout -b jaesung
    ```
 3. **내용 정리 및 푸시**: 본인의 주차 폴더에 정리한 내용을 작성하고 푸시합니다.
    ```bash
    git add .
    git commit -m "docs: 1장 정리"
-   git push origin "jaesung"
+   git push origin jaesung
    ```
 4. **PR 생성**: `[아이디]` 브랜치에서 `main` 브랜치로 PR(Pull Request)를 보냅니다.
 5. **PR 머지**: 마지막에 확인한 사람이 PR을 머지합니다.
